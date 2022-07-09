@@ -22,14 +22,31 @@ console.log(run(arr1));
 // Return the nth element of 'a
 
 const arr2 = [7,2,1,6,3];
-const num = 1
+const num2 = 1
 
 function run(arr, num) {
   const findValue = arr[num - 1]
   return findValue
 }
-console.log(run(arr2, num));
+console.log(run(arr2, num2));
 
 
 //------------------------------------------------------------------------------------------------------
+
+// Write a function that takes an array (a) as argument
+// Remove the first 3 elements of 'a'
+// Return the result
+
+const arr = [1,2,4,4,5, 7 ,8 ,7];
+
+function run(arr) {
+  arr.splice(0, 3)
+  return arr
+}
+console.log(run(arr));
+
+
+//--------------------------------------------------------------------------------------------------------------
+
+
 
