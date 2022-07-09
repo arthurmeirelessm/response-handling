@@ -62,3 +62,29 @@ function run(arr) {
 }
 
 console.log(run(arr4));
+
+//----------------------------------------------------------------------------------------------------
+
+
+// Write a function that takes an array of strings as argument
+// Return the longest string
+
+const arr = ['I', 'need', 'candy', 'Christopher', 'Alexanderrfdere', 'Makarov'];
+
+
+function run(arr){
+  let largest = '';
+
+  for(let i = 0; i < arr.length; i++){
+    if(arr[i].length > largest.length){
+      largest = arr[i]
+    }
+  }
+  return largest;
+}
+  
+
+console.log(run(arr));
+
+
+//--------------------------------------------------------------------------------------------------------
